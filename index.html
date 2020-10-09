@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheets/style.css"
+    />
+    <title>Dice-Roller Assessment</title>
+  </head>
+  <body>
+    <div>
+      <div class="header">
+        <h1>Dice Roller</h1>
+        <label id="enter-number">Enter a number of dice: </label>
+        <input type="text" id="input-field" placeholder="e.g  5 " />
+        <audio id="roll-audio">
+          <source src="./assets/audio/dice_roll.mp3" type="audio/mpeg" />
+        </audio>
+        &nbsp; <button id="roll-button">Roll!</button>
+        <br />
+        <br />
+        <label>Total:</label>
+        <label id="total-of-dice"></label>
+      </div>
+
+      <div class="container">
+        <br />
+        <audio id="allRolls-audio">
+          <source src="./assets/audio/click_mjgh_lab.mp3" type="audio/mpeg" />
+        </audio>
+        <button id="all-rolls-button">Show All Rolls</button>
+        <ol id="allRolls-list"></ol>
+        <audio id="reset-audio">
+          <source src="./assets/audio/winner.mp3" type="audio/mpeg" />
+        </audio>
+        <button id="reset-button">Reset</button>
+      </div>
+    </div>
+
+    <script src="./assets/javascript/main.js" type="text/javascript"></script>
+  </body>
+</html>

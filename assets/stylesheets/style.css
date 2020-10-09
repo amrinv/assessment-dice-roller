@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  background-image: url("https://miro.medium.com/max/875/0*bLJxMZ_YS0RxF-82.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15px;
+  font-size: 62px;
+  background: -webkit-linear-gradient(rgb(194, 183, 201), rgb(16, 71, 172));
+  -webkit-background-clip: text;
+  background-clip: "";
+  -webkit-text-fill-color: transparent;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 25px;
+  color: bisque;
+}
+#total-of-dice {
+  text-decoration: underline;
+}
+#allRolls-list {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 25px;
+  color: bisque;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+
+  border: 2px solid midnightblue;
+  color: midnightblue;
+}
+#roll-button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid wheat;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+#all-rolls-button {
+  width: 140px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid wheat;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+#reset-button {
+  width: 140px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid wheat;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+button:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
