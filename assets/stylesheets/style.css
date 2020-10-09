@@ -28,9 +28,10 @@ label {
 }
 #allRolls-list {
   font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 5px blueviolet;
   font-size: 20px;
   font-weight: 25px;
-  color: bisque;
+  color: cyan;
 }
 
 button {
