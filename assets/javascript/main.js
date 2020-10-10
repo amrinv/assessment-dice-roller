@@ -10,6 +10,7 @@ let i = 0,
 //let randomNumber = Math.floor(Math.random() * 6) + 1;
 
 // ----- Rolls Button Click Event ------
+
 let rollAudio = document.querySelector("#roll-audio");
 rollButton.addEventListener("click", function () {
   let randomNumber = [];
